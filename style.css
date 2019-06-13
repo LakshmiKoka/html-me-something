@@ -6,64 +6,75 @@
  }
 
   h2{
-      color:brown;
+    color:brown;
   }
   h3{
     color:darkslateblue;   
   }
 
-  .logo {
+.logo {
     display: block;
     margin-left: auto;
     margin-right: auto;
-      height: 200px;
-      object-fit: contain;
-      justify-content: center
+    height: 200px;
+    object-fit: contain;
+    justify-content: center
   }
-  .logo-text {
-      width: 100%;
-text-align: center;
-font-size: 22px;
-font-weight: 400;
+.logo-text {
+    width: 100%;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
   }
-  .container {
-      width: 90%;
+.container {
+    width: 90%;
     max-width: 1200px;
-margin-left: auto;
-margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
 
   }
-  .hero-image{
+.hero-image{
     display: block;
     margin-left: auto;
     margin-right: auto;
-      margin-top: 15px;
-      object-fit: fill;
+    margin-top: 15px;
+    object-fit: fill;
   }
 
 
-  footer {
-      height: 125px;
-      background: #100e17;
-      color: #b1b1b1;
-      display: flex;
-      justify-content:center;
-      align-content:center;
-      flex-direction:column;
+footer {
+    height: 125px;
+    background: #100e17;
+    color: #b1b1b1;
+    display: flex;
+    justify-content:center;
+    align-content:center;
+    flex-direction:column;
 
   }
-  #cast{
+#cast{
     display: block;
     max-width: 320px;
     max-height: 320px;
-    align-content: left
+    align-content: left;
     
   }
-  h5{
-    
-    color:black   
+h5{
+    color:black ;  
   }
-  .contents{
-      padding-top: 5px
+.played-by{
+  font-size: 15px;
+  }
+
+  .name {
+    color:darkslateblue; 
+    padding-top: 5px;
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+  .credit {
+    margin-top: 10px;
+    margin-bottom: 18px;
   }
   
